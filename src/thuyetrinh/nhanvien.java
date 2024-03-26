@@ -1,5 +1,5 @@
 package thuyetrinh;
-import java.util.Scanner;
+
 public abstract class nhanvien{
     public String name;//ho ten
     public int datebirth;// ngay sinh
@@ -52,10 +52,7 @@ public abstract class nhanvien{
         this.position = position;
     }
 
-    public abstract double Luong();
-
     public abstract double luong();
-
     public abstract void nhap();
     public abstract void xuat ();
 }

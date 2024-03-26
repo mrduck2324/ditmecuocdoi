@@ -6,11 +6,14 @@ class controlroom extends nhanvien {
 
     public controlroom() {
         super();
+        this.songaychamcong = 0;
+        this.bacluong = 0d;
     }
 
-    @Override
-    public double Luong() {
-        return 0;
+    public controlroom(String name, int datebirth, String license, String position, int songaychamcong, double bacluong) {
+        super(name, datebirth, license, position);
+        this.songaychamcong = songaychamcong;
+        this.bacluong = bacluong;
     }
 
     public int getSongaychamcong() {
